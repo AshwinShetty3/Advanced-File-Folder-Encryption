@@ -2,7 +2,7 @@
 Advanced File &amp; Folder Encryption with Email integration
 
 ## Prerequisites
- - Formspree
+ - Formspree (https://formspree.io)
  - curl
 
 ✅ Features
@@ -17,7 +17,7 @@ Advanced File &amp; Folder Encryption with Email integration
     ```bash
    sudo apt update && sudo apt install -y curl
    ```
-2. CONFIGURED Formspree Log in to Formspree (https://formspree.io):
+2. CONFIGURED Formspree Log in to Formspree:
      ```bash  
    Make sure your Form ID is correct (f/mpwzekgg).
    Your email is verified.
@@ -27,6 +27,7 @@ Advanced File &amp; Folder Encryption with Email integration
     ```bash
    Ensure your endpoint: (https://formspree.io/f/xyz) is correct
    replace with your Endpoint and Email
+    
    FORMSPREE_ENDPOINT="https://formspree.io/f/xyz"
    TO_EMAIL="ashwinbshetty373@gmail.com"
    ```
