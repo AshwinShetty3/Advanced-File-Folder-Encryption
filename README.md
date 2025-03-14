@@ -6,10 +6,11 @@ Advanced File &amp; Folder Encryption with Email integration
  - curl
 
 ✅ Features
+- Email Integrated with Endpoint(Formspree)
 - Encryption and Decryption for both file and folder
-- Email is sent with the password on successfully encryption
+- Email is sent with the password on successfully encryption (file/folder name with password)
 - Password is never stored
-- Integrated with email(Formspree)
+
  
 
 ## Setup
