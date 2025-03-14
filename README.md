@@ -15,7 +15,7 @@ Advanced File &amp; Folder Encryption with Email integration
 ## Setup
 1. Clone or Download this repository:
     ```bash
-   docker pull ashwin369/flask-backend-app:latest
+   https://github.com/AshwinShetty3/Advanced-File-Folder-Encryption.git
    ```
 2. curl must be installed for this script to send emails using Formspree
     ```bash
