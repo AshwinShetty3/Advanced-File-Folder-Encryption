@@ -24,7 +24,17 @@ Advanced File &amp; Folder Encryption with Email integration
    Your email is verified.
    Form is set to "Anyone can submit".
    ```
-3. Formspree Email Configuration:
+3. Check in the terminal if Formspree is working: 
+    ```bash
+   curl -X POST "https://formspree.io/f/xyz" \
+     -H "Content-Type: application/json" \
+     -d '{
+           "email": "youremail123@gmail.com",
+           "subject": "Test Email",
+           "message": "This is a test from the shell script."
+         }'  
+   ```
+4. Formspree Email Configuration:
     ```bash
    Ensure your endpoint: (https://formspree.io/f/xyz) is correct
    replace with your Endpoint and Email
